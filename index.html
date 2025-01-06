@@ -4,17 +4,91 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
 	<link rel="stylesheet" href="css/style.css">
 	<title>EcoCabins</title>
 </head>
 
 <body>
 	<div class="wrapper">
-		<header class="header"></header>
-		<main class="page"></main>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="img/Logo.svg" alt="Image logo">
+				</div>
+				<div class="header__body">
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link">Modellen</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Kopen</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Huren</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Nieuws</a>
+							</li>
+						</ul>
+					</nav>
+					<button class="header__button" type="button">Contact</button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main-section">
+				<div class="main-section__container">
+					<div class="main-section__content">
+						<div class="main-section__label">Duurzame tiny huisjes</div>
+						<h1 class="main-section__title title">Een ecologisch tiny huisje is zoveel mogelijk opgebouwd uit duurzame
+							natuurlijke materialen</h1>
+					</div>
+					<a href="#" class="main-section__video-link">Bekijk de film</a>
+				</div>
+				<div class="main-section__image">
+					<img src="img/main/01.jpg" alt="Image">
+				</div>
+			</section>
+			<section class="page__materials materials">
+				<div class="materials__container">
+					<div class="materials__content">
+						<h2 class="materials__title title title--dark">Duurzame materialen</h2>
+						<div class="materials__text">
+							<p>Alle EcoCabins hebben een hoge isolatiewaarde, worden geproduceerd met indien mogelijk duurzame en/of
+								natuurlijke materialen en hebben als opvallende uiterlijke kenmerk de ‘ronde hoeken’, mogelijk gemaakt
+								door het specifieke materiaalgebruik. De voordelen van bouwen met hout zijn legio: hout is licht,
+								flexibel, isoleert goed en bouwt snel en efficiënt. </p>
+						</div>
+						<a href="#" class="materials__more">Lees meer</a>
+					</div>
+					<!-- Slider main container -->
+					<div class="materials__slider slider-materials swiper">
+						<!-- Additional required wrapper -->
+						<div class="slider-materials__wrapper swiper-wrapper">
+							<!-- Slides -->
+							<div class="slider-materials__slide swiper-slide">
+								<img src="img/materials/slider/01.jpg" alt="Image">
+							</div>
+							<div class="slider-materials__slide swiper-slide">
+								<img src="img/main/01.jpg" alt="Image">
+							</div>
+							<div class="slider-materials__slide swiper-slide">
+								<img src="img/materials/slider/01.jpg" alt="Image">
+							</div>
+						</div>
+						<!-- If we need pagination -->
+						<div class="slider-materials__pagination swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+		</main>
 		<footer class="footer"></footer>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 <!-- Нідерланди -->
+
 </html>
